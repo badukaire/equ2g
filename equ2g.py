@@ -32,10 +32,12 @@ else :
     valArrelDisc = math.sqrt(valDiscriminant)
     print(valArrelDisc)
     x1 = (-valB + valArrelDisc)/ (2 * valA)
-    x2 = (-valB - valArrelDisc)/ (2 * valA)
     print("ja tenim la solució d'aquesta equacio de 2n grau!!!!")
-    print(x1, x2)
-    
+    if not valDiscriminant == 0.0 :
+        x2 = (-valB - valArrelDisc)/ (2 * valA)
+        print(x1, x2)
+    else :
+        print(x1, "(1 unica solucio)")
     
     
 
