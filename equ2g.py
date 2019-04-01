@@ -38,11 +38,3 @@ else :
         print(x1, x2)
     else :
         print(x1, "(1 unica solucio)")
-    
-    
-
-    
-    
-        
-
-
